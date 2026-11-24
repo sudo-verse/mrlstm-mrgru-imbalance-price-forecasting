@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it and the original MRINN paper."
+title: "Market-Rule-Informed GRU/LSTM for Imbalance-Price Forecasting"
+type: software
+authors:
+  - family-names: Devashish
+repository-code: "https://github.com/sudo-verse/mrlstm-mrgru-imbalance-price-forecasting"
+license: MIT
+references:
+  - type: article
+    title: "A Market-Rule-Informed Neural Network for Efficient Imbalance Electricity Price Forecasting"
+    authors:
+      - family-names: Yu
+        given-names: Runyao
+    journal: "Advanced Engineering Informatics"
+    year: 2026
+    doi: 10.1016/j.aei.2026.105083

@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.python-version
+
+# Local datasets and downloaded API cache
+data/*.csv
+data/raw/
+tools/raw/
+*.zip
+
+# Training outputs and large arrays
+results/**
+!results/README.md
+*.npz
+*.h5
+*.keras
+*.ckpt
+*.log
+
+# Secrets and local configuration
+.env
+.env.*
+*token*
+*secret*
+credentials*.json
+
+# Operating-system and editor files
+.DS_Store
+.idea/
+.vscode/
